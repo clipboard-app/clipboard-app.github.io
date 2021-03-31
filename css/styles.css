@@ -1,0 +1,36 @@
+/* create variables */
+:root {
+    
+}
+
+/* normalize margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-moz-focus-inner {
+    border: 0;
+}
+
+main {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 300;
+    width: 80%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    min-height: 80vh;
+    max-height: 80vh;
+    background: #000;
+}
